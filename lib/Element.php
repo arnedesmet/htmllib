@@ -1,5 +1,7 @@
 <?php
 
+namespace Arne\htmllib;
+
 class Element
 {
   protected $content = '';

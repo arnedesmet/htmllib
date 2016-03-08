@@ -1,5 +1,6 @@
 <?php
 
+namespace Arne\htmllib;
 require_once("Element.php");
 
 class Button extends Element

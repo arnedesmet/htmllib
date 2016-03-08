@@ -1,4 +1,7 @@
 <?php
+
+  use Arne\htmllib;
+
   require_once('lib/H1.php');
   require_once('lib/H2.php');
   require_once('lib/P.php');

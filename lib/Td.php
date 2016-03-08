@@ -1,5 +1,7 @@
 <?php
 
+namespace Arne\htmllib;
+
 require_once("Element.php");
 
 class Td extends Element

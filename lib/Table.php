@@ -1,4 +1,7 @@
 <?php
+
+namespace Arne\htmllib;
+
 require_once('Element.php');
 
 class Table extends Element
