@@ -1,8 +1,8 @@
 <?php
 
-    namespace Arne\htmllib;
+    namespace arne\htmllib;
 
-    use arne\htmllib\Element;
+    use arnedesmet\htmllib\Element;
 
     class Aside extends Element
     {

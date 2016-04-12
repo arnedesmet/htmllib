@@ -49,7 +49,7 @@ use arne\htmllib\{H1, H2, Header, P, Div, Button, Span, Image, Footer, Hr, Aside
         $tablecontent .= new Tr($trthcontent);
         $tablecontent .= $trtdcontent;
         $tablecontent .= ";";
-        
+
         echo new Table($tablecontent);
 
     ?>
