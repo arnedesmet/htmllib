@@ -1,0 +1,13 @@
+{
+    "name": "arnedesmet/demo-app",
+    "authors": [
+        {
+            "name": "Arne Desmet",
+            "email": "desmet.arne@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"arne\\htmllib\\": "lib/"}
+    }
+}

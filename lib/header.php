@@ -1,14 +1,14 @@
 <?php
 
-namespace Arne\htmllib;
+    namespace Arne\htmllib;
 
-require_once("Element.php");
+    use arne\htmllib\Element;
 
-class Header extends Element
-{
-  public function __construct($content)
-  {
-    parent::__construct($content);
-    $this->tag = "header";
-  }
-}
+    class Header extends Element
+    {
+        public function __construct($content)
+        {
+            parent::__construct($content);
+            $this->tag = "header";
+        }
+    }

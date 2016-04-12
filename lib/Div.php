@@ -1,13 +1,14 @@
 <?php
 
-namespace Arne\htmllib;
-require_once("Element.php");
+    namespace Arne\htmllib;
 
-class Div extends Element
-{
-  public function __construct($content)
-  {
-    parent::__construct($content);
-    $this->tag = "div";
-  }
-}
+    use arne\htmllib\Element;
+
+    class Div extends Element
+    {
+        public function __construct($content)
+        {
+            parent::__construct($content);
+            $this->tag = "div";
+        }
+    }

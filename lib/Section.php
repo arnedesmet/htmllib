@@ -1,18 +1,18 @@
 <?php
 
-namespace Arne\htmllib;
+    namespace Arne\htmllib;
 
-require_once("Element.php");
+    use arne\htmllib\Element;
 
 
-// this is a comment, dag wereld
+    // this is a comment, dag wereld
 
-class Section extends Element
-{
-  public function __construct($content)
-  {
-    // hello
-    parent::__construct($content);
-    $this->tag = "section";
-  }
-}
+    class Section extends Element
+    {
+        public function __construct($content)
+        {
+            // hello
+            parent::__construct($content);
+            $this->tag = "section";
+        }
+    }

@@ -1,13 +1,16 @@
 <?php
 
-namespace Arne\htmllib;
-require_once("Element.php");
+    namespace Arne\htmllib;
 
-class Button extends Element
-{
-  public function __construct($content, $properties = array())
-  {
-    parent::__construct($content, $properties);
-    $this->tag = "button";
-  }
-}
+    use arne\htmllib\Element;
+
+    require_once("Element.php");
+
+    class Button extends Element
+    {
+        public function __construct($content, $properties = array())
+        {
+            parent::__construct($content, $properties);
+            $this->tag = "button";
+        }
+    }

@@ -1,15 +1,14 @@
 <?php
 
-namespace Arne\htmllib;
+    namespace Arne\htmllib;
 
-require_once('Element.php');
+    use arne\htmllib\Element;
 
-class Span extends Element
-{
-  public function __construct($content, $properties = array())
-  {
-    parent::__construct($content, $properties);
-    $this->tag = "span";
-  }
-}
- ?>
+    class Span extends Element
+    {
+        public function __construct($content, $properties = array())
+        {
+            parent::__construct($content, $properties);
+            $this->tag = "span";
+        }
+    }

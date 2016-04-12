@@ -1,14 +1,14 @@
 <?php
 
-namespace Arne\htmllib;
+    namespace Arne\htmllib;
 
-require_once("Element.php");
+    require_once("Element.php");
 
-class Input extends Element
-{
-  public function __construct($content, $properties = array())
-  {
-    parent::__construct($content, $properties);
-    $this->tag = "input";
-  }
-}
+    class Input extends Element
+    {
+        public function __construct($content, $properties = array())
+        {
+            parent::__construct($content, $properties);
+            $this->tag = "input";
+        }
+    }
